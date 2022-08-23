@@ -61,7 +61,7 @@ export default {
   data() {
     return {
       inputChampionName: "",
-      inputHasteText: "",
+      inputHasteText: 0,
       ultimateCooldown: 6,
     }
   },
