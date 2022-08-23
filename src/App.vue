@@ -14,6 +14,10 @@ export default {
 </script>
 
 <style>
+html{
+  background: linear-gradient(135deg, #d3e4ff, #8fb1ff) no-repeat;
+  min-height: 100vh;
+}
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
