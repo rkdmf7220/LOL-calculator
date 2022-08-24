@@ -1,13 +1,16 @@
 <template>
   <AbilityHasteCalculator/>
+  <ChampionExp/>
 </template>
 
 <script>
 import AbilityHasteCalculator from "@/components/AbilityHasteCalculator";
+import ChampionExp from "@/components/ChampionExp";
 
 export default {
   name: 'App',
   components: {
+    ChampionExp,
     AbilityHasteCalculator
   }
 }
