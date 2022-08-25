@@ -3,966 +3,1127 @@
     "name": "가렌",
     "ultimateLevel1": 120,
     "ultimateLevel2": 100,
-    "ultimateLevel3": 80
+    "ultimateLevel3": 80,
+    "ultimateThumb" : "img/ultimate/GarenR.png"
   },
   {
     "name": "갈리오",
     "ultimateLevel1": 200,
     "ultimateLevel2": 180,
-    "ultimateLevel3": 160
+    "ultimateLevel3": 160,
+    "ultimateThumb" : "img/ultimate/GalioR.png"
   },
   {
     "name": "갱플랭크",
     "ultimateLevel1": 180,
     "ultimateLevel2": 160,
-    "ultimateLevel3": 140
+    "ultimateLevel3": 140,
+    "ultimateThumb" : "img/ultimate/GangplankR.png"
   },
   {
     "name": "그라가스",
     "ultimateLevel1": 120,
     "ultimateLevel2": 100,
-    "ultimateLevel3": 80
+    "ultimateLevel3": 80,
+    "ultimateThumb" : "img/ultimate/GragasR.png"
   },
   {
     "name": "그레이브즈",
     "ultimateLevel1": 120,
     "ultimateLevel2": 90,
-    "ultimateLevel3": 60
+    "ultimateLevel3": 60,
+    "ultimateThumb" : "img/ultimate/GravesR.png"
   },
   {
     "name": "그웬",
     "ultimateLevel1": 120,
     "ultimateLevel2": 100,
-    "ultimateLevel3": 80
+    "ultimateLevel3": 80,
+    "ultimateThumb" : "img/ultimate/GwenR.png"
   },
   {
     "name": "나르",
     "ultimateLevel1": 90,
     "ultimateLevel2": 60,
-    "ultimateLevel3": 30
+    "ultimateLevel3": 30,
+    "ultimateThumb" : "img/ultimate/GnarR.png"
   },
   {
     "name": "나미",
     "ultimateLevel1": 120,
     "ultimateLevel2": 110,
-    "ultimateLevel3": 100
+    "ultimateLevel3": 100,
+    "ultimateThumb" : "img/ultimate/NamiR.png"
   },
   {
     "name": "나서스",
     "ultimateLevel1": 120,
     "ultimateLevel2": 120,
-    "ultimateLevel3": 120
+    "ultimateLevel3": 120,
+    "ultimateThumb" : "img/ultimate/NasusR.png"
   },
   {
     "name": "노틸러스",
     "ultimateLevel1": 120,
     "ultimateLevel2": 100,
-    "ultimateLevel3": 80
+    "ultimateLevel3": 80,
+    "ultimateThumb" : "img/ultimate/NautilusR.png"
   },
   {
     "name": "녹턴",
     "ultimateLevel1": 140,
     "ultimateLevel2": 115,
-    "ultimateLevel3": 90
+    "ultimateLevel3": 90,
+    "ultimateThumb" : "img/ultimate/NocturneR.png"
   },
   {
     "name": "누누",
     "ultimateLevel1": 110,
     "ultimateLevel2": 100,
-    "ultimateLevel3": 90
+    "ultimateLevel3": 90,
+    "ultimateThumb" : "img/ultimate/NunuR.png"
   },
   {
     "name": "니달리",
     "ultimateLevel1": 3,
     "ultimateLevel2": 3,
-    "ultimateLevel3": 3
+    "ultimateLevel3": 3,
+    "ultimateThumb" : "img/ultimate/NidaleeR.png"
   },
   {
     "name": "니코",
     "ultimateLevel1": 90,
     "ultimateLevel2": 90,
-    "ultimateLevel3": 90
+    "ultimateLevel3": 90,
+    "ultimateThumb" : "img/ultimate/NeekoR.png"
   },
   {
     "name": "닐라",
     "ultimateLevel1": 110,
     "ultimateLevel2": 95,
-    "ultimateLevel3": 80
+    "ultimateLevel3": 80,
+    "ultimateThumb" : "img/ultimate/NilahR.png"
   },
   {
     "name": "다리우스",
     "ultimateLevel1": 120,
     "ultimateLevel2": 100,
-    "ultimateLevel3": 80
+    "ultimateLevel3": 80,
+    "ultimateThumb" : "img/ultimate/DariusR.png"
   },
   {
     "name": "다이애나",
     "ultimateLevel1": 100,
     "ultimateLevel2": 90,
-    "ultimateLevel3": 80
+    "ultimateLevel3": 80,
+    "ultimateThumb" : "img/ultimate/DianaR.png"
   },
   {
     "name": "드레이븐",
     "ultimateLevel1": 120,
     "ultimateLevel2": 100,
-    "ultimateLevel3": 80
+    "ultimateLevel3": 80,
+    "ultimateThumb" : "img/ultimate/DravenR.png"
   },
   {
     "name": "라이즈",
     "ultimateLevel1": 210,
     "ultimateLevel2": 180,
-    "ultimateLevel3": 150
+    "ultimateLevel3": 150,
+    "ultimateThumb" : "img/ultimate/RyzeR.png"
   },
   {
     "name": "라칸",
     "ultimateLevel1": 130,
     "ultimateLevel2": 110,
-    "ultimateLevel3": 90
+    "ultimateLevel3": 90,
+    "ultimateThumb" : "img/ultimate/RakanR.png"
   },
   {
     "name": "람머스",
     "ultimateLevel1": 90,
     "ultimateLevel2": 90,
-    "ultimateLevel3": 90
+    "ultimateLevel3": 90,
+    "ultimateThumb" : "img/ultimate/RammusR.png"
   },
   {
     "name": "럭스",
     "ultimateLevel1": 60,
     "ultimateLevel2": 50,
-    "ultimateLevel3": 40
+    "ultimateLevel3": 40,
+    "ultimateThumb" : "img/ultimate/LuxR.png"
   },
   {
     "name": "럼블",
     "ultimateLevel1": 100,
     "ultimateLevel2": 85,
-    "ultimateLevel3": 70
+    "ultimateLevel3": 70,
+    "ultimateThumb" : "img/ultimate/RumbleR.png"
   },
   {
     "name": "레나타",
     "ultimateLevel1": 150,
     "ultimateLevel2": 130,
-    "ultimateLevel3": 110
+    "ultimateLevel3": 110,
+    "ultimateThumb" : "img/ultimate/RenetaR.png"
   },
   {
     "name": "레넥톤",
     "ultimateLevel1": 120,
     "ultimateLevel2": 120,
-    "ultimateLevel3": 120
+    "ultimateLevel3": 120,
+    "ultimateThumb" : "img/ultimate/RenektonR.png"
   },
   {
     "name": "레오나",
     "ultimateLevel1": 90,
     "ultimateLevel2": 75,
-    "ultimateLevel3": 60
+    "ultimateLevel3": 60,
+    "ultimateThumb" : "img/ultimate/LeonaR.png"
   },
   {
     "name": "렉사이",
     "ultimateLevel1": 100,
     "ultimateLevel2": 90,
-    "ultimateLevel3": 80
+    "ultimateLevel3": 80,
+    "ultimateThumb" : "img/ultimate/RekSaiR.png"
   },
   {
     "name": "렐",
     "ultimateLevel1": 120,
     "ultimateLevel2": 100,
-    "ultimateLevel3": 80
+    "ultimateLevel3": 80,
+    "ultimateThumb" : "img/ultimate/RellR.png"
   },
   {
     "name": "렝가",
     "ultimateLevel1": 110,
     "ultimateLevel2": 100,
-    "ultimateLevel3": 90
+    "ultimateLevel3": 90,
+    "ultimateThumb" : "img/ultimate/RengarR.png"
   },
   {
     "name": "루시안",
     "ultimateLevel1": 110,
     "ultimateLevel2": 100,
-    "ultimateLevel3": 90
+    "ultimateLevel3": 90,
+    "ultimateThumb" : "img/ultimate/LucianR.png"
   },
   {
     "name": "룰루",
     "ultimateLevel1": 120,
     "ultimateLevel2": 100,
-    "ultimateLevel3": 80
+    "ultimateLevel3": 80,
+    "ultimateThumb" : "img/ultimate/LuluR.png"
   },
   {
     "name": "르블랑",
     "ultimateLevel1": 60,
     "ultimateLevel2": 45,
-    "ultimateLevel3": 30
+    "ultimateLevel3": 30,
+    "ultimateThumb" : "img/ultimate/LeblancR.png"
   },
   {
     "name": "리신",
     "ultimateLevel1": 110,
     "ultimateLevel2": 85,
-    "ultimateLevel3": 60
+    "ultimateLevel3": 60,
+    "ultimateThumb" : "img/ultimate/LeesinR.png"
   },
   {
     "name": "리븐",
     "ultimateLevel1": 120,
     "ultimateLevel2": 90,
-    "ultimateLevel3": 60
+    "ultimateLevel3": 60,
+    "ultimateThumb" : "img/ultimate/RivenR.png"
   },
   {
     "name": "리산드라",
     "ultimateLevel1": 120,
     "ultimateLevel2": 100,
-    "ultimateLevel3": 80
+    "ultimateLevel3": 80,
+    "ultimateThumb" : "img/ultimate/LissandraR.png"
   },
   {
     "name": "릴리아",
     "ultimateLevel1": 150,
     "ultimateLevel2": 130,
-    "ultimateLevel3": 110
+    "ultimateLevel3": 110,
+    "ultimateThumb" : "img/ultimate/LilliaR.png"
   },
   {
     "name": "마스터이",
     "ultimateLevel1": 85,
     "ultimateLevel2": 85,
-    "ultimateLevel3": 85
+    "ultimateLevel3": 85,
+    "ultimateThumb" : "img/ultimate/MasterYiR.png"
   },
   {
     "name": "마오카이",
     "ultimateLevel1": 120,
     "ultimateLevel2": 100,
-    "ultimateLevel3": 80
+    "ultimateLevel3": 80,
+    "ultimateThumb" : "img/ultimate/MaokaiR.png"
   },
   {
     "name": "말자하",
     "ultimateLevel1": 140,
     "ultimateLevel2": 110,
-    "ultimateLevel3": 80
+    "ultimateLevel3": 80,
+    "ultimateThumb" : "img/ultimate/MalzaharR.png"
   },
   {
     "name": "말파이트",
     "ultimateLevel1": 130,
     "ultimateLevel2": 105,
-    "ultimateLevel3": 80
+    "ultimateLevel3": 80,
+    "ultimateThumb" : "img/ultimate/MalphiteR.png"
   },
   {
     "name": "모데카이저",
     "ultimateLevel1": 140,
     "ultimateLevel2": 120,
-    "ultimateLevel3": 100
+    "ultimateLevel3": 100,
+    "ultimateThumb" : "img/ultimate/MordekaiserR.png"
   },
   {
     "name": "모르가나",
     "ultimateLevel1": 120,
     "ultimateLevel2": 110,
-    "ultimateLevel3": 100
+    "ultimateLevel3": 100,
+    "ultimateThumb" : "img/ultimate/MorganaR.png"
   },
   {
     "name": "문도 박사",
     "ultimateLevel1": 110,
     "ultimateLevel2": 110,
-    "ultimateLevel3": 110
+    "ultimateLevel3": 110,
+    "ultimateThumb" : "img/ultimate/DrMundoR.png"
   },
   {
     "name": "미스포츈",
     "ultimateLevel1": 120,
     "ultimateLevel2": 110,
-    "ultimateLevel3": 100
+    "ultimateLevel3": 100,
+    "ultimateThumb" : "img/ultimate/MissFortuneR.png"
   },
   {
     "name": "바드",
     "ultimateLevel1": 110,
     "ultimateLevel2": 95,
-    "ultimateLevel3": 80
+    "ultimateLevel3": 80,
+    "ultimateThumb" : "img/ultimate/BardR.png"
   },
   {
     "name": "바루스",
     "ultimateLevel1": 100,
     "ultimateLevel2": 80,
-    "ultimateLevel3": 60
+    "ultimateLevel3": 60,
+    "ultimateThumb" : "img/ultimate/VarusR.png"
   },
   {
     "name": "바이",
     "ultimateLevel1": 120,
     "ultimateLevel2": 100,
-    "ultimateLevel3": 80
+    "ultimateLevel3": 80,
+    "ultimateThumb" : "img/ultimate/ViR.png"
   },
   {
     "name": "베이가",
     "ultimateLevel1": 120,
     "ultimateLevel2": 90,
-    "ultimateLevel3": 60
+    "ultimateLevel3": 60,
+    "ultimateThumb" : "img/ultimate/VeigarR.png"
   },
   {
     "name": "베인",
     "ultimateLevel1": 100,
     "ultimateLevel2": 85,
-    "ultimateLevel3": 75
+    "ultimateLevel3": 75,
+    "ultimateThumb" : "img/ultimate/VayneR.png"
   },
   {
     "name": "벡스",
     "ultimateLevel1": 140,
     "ultimateLevel2": 120,
-    "ultimateLevel3": 100
+    "ultimateLevel3": 100,
+    "ultimateThumb" : "img/ultimate/VexR.png"
   },
   {
     "name": "벨베스",
     "ultimateLevel1": 1,
     "ultimateLevel2": 1,
-    "ultimateLevel3": 1
+    "ultimateLevel3": 1,
+    "ultimateThumb" : "img/ultimate/BelvethR.png"
   },
   {
     "name": "벨코즈",
     "ultimateLevel1": 120,
     "ultimateLevel2": 100,
-    "ultimateLevel3": 80
+    "ultimateLevel3": 80,
+    "ultimateThumb" : "img/ultimate/VelkozR.png"
   },
   {
     "name": "볼리베어",
     "ultimateLevel1": 160,
     "ultimateLevel2": 140,
-    "ultimateLevel3": 120
+    "ultimateLevel3": 120,
+    "ultimateThumb" : "img/ultimate/VolibearR.png"
   },
   {
     "name": "브라움",
     "ultimateLevel1": 120,
     "ultimateLevel2": 100,
-    "ultimateLevel3": 80
+    "ultimateLevel3": 80,
+    "ultimateThumb" : "img/ultimate/BraumR.png"
   },
   {
     "name": "브랜드",
     "ultimateLevel1": 105,
     "ultimateLevel2": 90,
-    "ultimateLevel3": 75
+    "ultimateLevel3": 75,
+    "ultimateThumb" : "img/ultimate/BrandR.png"
   },
   {
     "name": "블라미디르",
     "ultimateLevel1": 120,
     "ultimateLevel2": 120,
-    "ultimateLevel3": 120
+    "ultimateLevel3": 120,
+    "ultimateThumb" : "img/ultimate/VladimirR.png"
   },
   {
     "name": "블리츠크랭크",
     "ultimateLevel1": 60,
     "ultimateLevel2": 40,
-    "ultimateLevel3": 20
+    "ultimateLevel3": 20,
+    "ultimateThumb" : "img/ultimate/BlitzcrankR.png"
   },
   {
     "name": "비에고",
     "ultimateLevel1": 120,
     "ultimateLevel2": 100,
-    "ultimateLevel3": 80
+    "ultimateLevel3": 80,
+    "ultimateThumb" : "img/ultimate/ViegoR.png"
   },
   {
     "name": "빅토르",
     "ultimateLevel1": 120,
     "ultimateLevel2": 100,
-    "ultimateLevel3": 80
+    "ultimateLevel3": 80,
+    "ultimateThumb" : "img/ultimate/ViktorR.png"
   },
   {
     "name": "뽀삐",
     "ultimateLevel1": 140,
     "ultimateLevel2": 120,
-    "ultimateLevel3": 100
+    "ultimateLevel3": 100,
+    "ultimateThumb" : "img/ultimate/PoppyR.png"
   },
   {
     "name": "사미라",
     "ultimateLevel1": 5,
     "ultimateLevel2": 5,
-    "ultimateLevel3": 5
+    "ultimateLevel3": 5,
+    "ultimateThumb" : "img/ultimate/SamiraR.png"
   },
   {
     "name": "사이온",
     "ultimateLevel1": 140,
     "ultimateLevel2": 100,
-    "ultimateLevel3": 60
+    "ultimateLevel3": 60,
+    "ultimateThumb" : "img/ultimate/SionR.png"
   },
   {
     "name": "사일러스",
     "ultimateLevel1": 80,
     "ultimateLevel2": 55,
-    "ultimateLevel3": 30
+    "ultimateLevel3": 30,
+    "ultimateThumb" : "img/ultimate/SylasR.png"
   },
   {
     "name": "샤코",
     "ultimateLevel1": 100,
     "ultimateLevel2": 90,
-    "ultimateLevel3": 80
+    "ultimateLevel3": 80,
+    "ultimateThumb" : "img/ultimate/ShacoR.png"
   },
   {
     "name": "세나",
     "ultimateLevel1": 160,
     "ultimateLevel2": 140,
-    "ultimateLevel3": 120
+    "ultimateLevel3": 120,
+    "ultimateThumb" : "img/ultimate/SennaR.png"
   },
   {
     "name": "세라핀",
     "ultimateLevel1": 160,
     "ultimateLevel2": 130,
-    "ultimateLevel3": 100
+    "ultimateLevel3": 100,
+    "ultimateThumb" : "img/ultimate/SeraphineR.png"
   },
   {
     "name": "세주아니",
     "ultimateLevel1": 120,
     "ultimateLevel2": 100,
-    "ultimateLevel3": 80
+    "ultimateLevel3": 80,
+    "ultimateThumb" : "img/ultimate/SejuaniR.png"
   },
   {
     "name": "세트",
     "ultimateLevel1": 120,
     "ultimateLevel2": 100,
-    "ultimateLevel3": 80
+    "ultimateLevel3": 80,
+    "ultimateThumb" : "img/ultimate/SettR.png"
   },
   {
     "name": "소나",
     "ultimateLevel1": 140,
     "ultimateLevel2": 120,
-    "ultimateLevel3": 100
+    "ultimateLevel3": 100,
+    "ultimateThumb" : "img/ultimate/SonaR.png"
   },
   {
     "name": "소라카",
     "ultimateLevel1": 160,
     "ultimateLevel2": 145,
-    "ultimateLevel3": 130
+    "ultimateLevel3": 130,
+    "ultimateThumb" : "img/ultimate/SorakaR.png"
   },
   {
     "name": "쉔",
     "ultimateLevel1": 200,
     "ultimateLevel2": 180,
-    "ultimateLevel3": 160
+    "ultimateLevel3": 160,
+    "ultimateThumb" : "img/ultimate/ShenR.png"
   },
   {
     "name": "쉬바나",
     "ultimateLevel1": 0,
     "ultimateLevel2": 0,
-    "ultimateLevel3": 0
+    "ultimateLevel3": 0,
+    "ultimateThumb" : "img/ultimate/ShyvanaR.png"
   },
   {
     "name": "스웨인",
     "ultimateLevel1": 100,
     "ultimateLevel2": 80,
-    "ultimateLevel3": 60
+    "ultimateLevel3": 60,
+    "ultimateThumb" : "img/ultimate/SwainR.png"
   },
   {
     "name": "스카너",
     "ultimateLevel1": 120,
     "ultimateLevel2": 100,
-    "ultimateLevel3": 80
+    "ultimateLevel3": 80,
+    "ultimateThumb" : "img/ultimate/SkarnerR.png"
   },
   {
     "name": "시비르",
     "ultimateLevel1": 120,
     "ultimateLevel2": 100,
-    "ultimateLevel3": 80
+    "ultimateLevel3": 80,
+    "ultimateThumb" : "img/ultimate/SivirR.png"
   },
   {
     "name": "신짜오",
     "ultimateLevel1": 120,
     "ultimateLevel2": 110,
-    "ultimateLevel3": 100
+    "ultimateLevel3": 100,
+    "ultimateThumb" : "img/ultimate/XinZhaoR.png"
   },
   {
     "name": "신드라",
     "ultimateLevel1": 120,
     "ultimateLevel2": 100,
-    "ultimateLevel3": 80
+    "ultimateLevel3": 80,
+    "ultimateThumb" : "img/ultimate/SyndraR.png"
   },
   {
     "name": "신지드",
     "ultimateLevel1": 120,
     "ultimateLevel2": 110,
-    "ultimateLevel3": 100
+    "ultimateLevel3": 100,
+    "ultimateThumb" : "img/ultimate/SingedR.png"
   },
   {
     "name": "쓰레쉬",
     "ultimateLevel1": 140,
     "ultimateLevel2": 120,
-    "ultimateLevel3": 100
+    "ultimateLevel3": 100,
+    "ultimateThumb" : "img/ultimate/ThreshR.png"
   },
   {
     "name": "아리",
     "ultimateLevel1": 140,
     "ultimateLevel2": 115,
-    "ultimateLevel3": 90
+    "ultimateLevel3": 90,
+    "ultimateThumb" : "img/ultimate/AhriR.png"
   },
   {
     "name": "아무무",
     "ultimateLevel1": 150,
     "ultimateLevel2": 125,
-    "ultimateLevel3": 100
+    "ultimateLevel3": 100,
+    "ultimateThumb" : "img/ultimate/AmumuR.png"
   },
   {
     "name": "아우렐리온 솔",
     "ultimateLevel1": 110,
     "ultimateLevel2": 90,
-    "ultimateLevel3": 70
+    "ultimateLevel3": 70,
+    "ultimateThumb" : "img/ultimate/AurelionSolR.png"
   },
   {
     "name": "아이번",
     "ultimateLevel1": 140,
     "ultimateLevel2": 130,
-    "ultimateLevel3": 120
+    "ultimateLevel3": 120,
+    "ultimateThumb" : "img/ultimate/IvernR.png"
   },
   {
     "name": "아지르",
     "ultimateLevel1": 120,
     "ultimateLevel2": 105,
-    "ultimateLevel3": 90
+    "ultimateLevel3": 90,
+    "ultimateThumb" : "img/ultimate/AzirR.png"
   },
   {
     "name": "아칼리",
     "ultimateLevel1": 100,
     "ultimateLevel2": 80,
-    "ultimateLevel3": 60
+    "ultimateLevel3": 60,
+    "ultimateThumb" : "img/ultimate/AkaliR.png"
   },
   {
     "name": "아크샨",
     "ultimateLevel1": 100,
     "ultimateLevel2": 85,
-    "ultimateLevel3": 70
+    "ultimateLevel3": 70,
+    "ultimateThumb" : "img/ultimate/AkshanR.png"
   },
   {
     "name": "아트록스",
     "ultimateLevel1": 120,
     "ultimateLevel2": 100,
-    "ultimateLevel3": 80
+    "ultimateLevel3": 80,
+    "ultimateThumb" : "img/ultimate/AatroxR.png"
   },
   {
     "name": "아펠리오스",
     "ultimateLevel1": 120,
     "ultimateLevel2": 120,
-    "ultimateLevel3": 120
+    "ultimateLevel3": 120,
+    "ultimateThumb" : "img/ultimate/ApheliosR.png"
   },
   {
     "name": "알리스타",
     "ultimateLevel1": 120,
     "ultimateLevel2": 100,
-    "ultimateLevel3": 80
+    "ultimateLevel3": 80,
+    "ultimateThumb" : "img/ultimate/AlistarR.png"
   },
   {
     "name": "애니",
     "ultimateLevel1": 120,
     "ultimateLevel2": 100,
-    "ultimateLevel3": 80
+    "ultimateLevel3": 80,
+    "ultimateThumb" : "img/ultimate/AnnieR.png"
   },
   {
     "name": "애니비아",
     "ultimateLevel1": 4,
     "ultimateLevel2": 3,
-    "ultimateLevel3": 2
+    "ultimateLevel3": 2,
+    "ultimateThumb" : "img/ultimate/AniviaR.png"
   },
   {
     "name": "애쉬",
     "ultimateLevel1": 80,
     "ultimateLevel2": 70,
-    "ultimateLevel3": 60
+    "ultimateLevel3": 60,
+    "ultimateThumb" : "img/ultimate/AsheR.png"
   },
   {
     "name": "야스오",
     "ultimateLevel1": 70,
     "ultimateLevel2": 50,
-    "ultimateLevel3": 30
+    "ultimateLevel3": 30,
+    "ultimateThumb" : "img/ultimate/YasuoR.png"
   },
   {
     "name": "에코",
     "ultimateLevel1": 110,
     "ultimateLevel2": 80,
-    "ultimateLevel3": 50
+    "ultimateLevel3": 50,
+    "ultimateThumb" : "img/ultimate/EkkoR.png"
   },
   {
     "name": "엘리스",
     "ultimateLevel1": 4,
     "ultimateLevel2": 4,
-    "ultimateLevel3": 4
+    "ultimateLevel3": 4,
+    "ultimateThumb" : "img/ultimate/EliseR.png"
   },
   {
     "name": "오공",
     "ultimateLevel1": 130,
     "ultimateLevel2": 110,
-    "ultimateLevel3": 90
+    "ultimateLevel3": 90,
+    "ultimateThumb" : "img/ultimate/WukongR.png"
   },
   {
     "name": "오른",
     "ultimateLevel1": 140,
     "ultimateLevel2": 120,
-    "ultimateLevel3": 100
+    "ultimateLevel3": 100,
+    "ultimateThumb" : "img/ultimate/OrnnR.png"
   },
   {
     "name": "오리아나",
     "ultimateLevel1": 110,
     "ultimateLevel2": 95,
-    "ultimateLevel3": 80
+    "ultimateLevel3": 80,
+    "ultimateThumb" : "img/ultimate/OriannaR.png"
   },
   {
     "name": "올라프",
     "ultimateLevel1": 100,
     "ultimateLevel2": 90,
-    "ultimateLevel3": 80
+    "ultimateLevel3": 80,
+    "ultimateThumb" : "img/ultimate/OlafR.png"
   },
   {
     "name": "요네",
     "ultimateLevel1": 120,
     "ultimateLevel2": 90,
-    "ultimateLevel3": 60
+    "ultimateLevel3": 60,
+    "ultimateThumb" : "img/ultimate/YoneR.png"
   },
   {
     "name": "요릭",
     "ultimateLevel1": 160,
     "ultimateLevel2": 130,
-    "ultimateLevel3": 100
+    "ultimateLevel3": 100,
+    "ultimateThumb" : "img/ultimate/YorickR.png"
   },
   {
     "name": "우디르",
     "ultimateLevel1": 6,
     "ultimateLevel2": 6,
-    "ultimateLevel3": 6
+    "ultimateLevel3": 6,
+    "ultimateThumb" : "img/ultimate/UdyrR.png"
   },
   {
     "name": "우르곳",
     "ultimateLevel1": 100,
     "ultimateLevel2": 85,
-    "ultimateLevel3": 70
+    "ultimateLevel3": 70,
+    "ultimateThumb" : "img/ultimate/UrgotR.png"
   },
   {
     "name": "워윅",
     "ultimateLevel1": 110,
     "ultimateLevel2": 90,
-    "ultimateLevel3": 70
+    "ultimateLevel3": 70,
+    "ultimateThumb" : "img/ultimate/WarwickR.png"
   },
   {
     "name": "유미",
     "ultimateLevel1": 130,
     "ultimateLevel2": 110,
-    "ultimateLevel3": 90
+    "ultimateLevel3": 90,
+    "ultimateThumb" : "img/ultimate/YuumiR.png"
   },
   {
     "name": "이렐리아",
     "ultimateLevel1": 140,
     "ultimateLevel2": 120,
-    "ultimateLevel3": 100
+    "ultimateLevel3": 100,
+    "ultimateThumb" : "img/ultimate/IreliaR.png"
   },
   {
     "name": "이블린",
     "ultimateLevel1": 120,
     "ultimateLevel2": 100,
-    "ultimateLevel3": 80
+    "ultimateLevel3": 80,
+    "ultimateThumb" : "img/ultimate/EvelynnR.png"
   },
   {
     "name": "이즈리얼",
     "ultimateLevel1": 120,
     "ultimateLevel2": 105,
-    "ultimateLevel3": 90
+    "ultimateLevel3": 90,
+    "ultimateThumb" : "img/ultimate/EzrealR.png"
   },
   {
     "name": "일라오이",
     "ultimateLevel1": 120,
     "ultimateLevel2": 95,
-    "ultimateLevel3": 70
+    "ultimateLevel3": 70,
+    "ultimateThumb" : "img/ultimate/IllaoiR.png"
   },
   {
     "name": "자르반",
     "ultimateLevel1": 120,
     "ultimateLevel2": 105,
-    "ultimateLevel3": 90
+    "ultimateLevel3": 90,
+    "ultimateThumb" : "img/ultimate/JarvanIVR.png"
   },
   {
     "name": "자야",
     "ultimateLevel1": 140,
     "ultimateLevel2": 120,
-    "ultimateLevel3": 100
+    "ultimateLevel3": 100,
+    "ultimateThumb" : "img/ultimate/XayahR.png"
   },
   {
     "name": "자이라",
     "ultimateLevel1": 110,
     "ultimateLevel2": 100,
-    "ultimateLevel3": 90
+    "ultimateLevel3": 90,
+    "ultimateThumb" : "img/ultimate/ZyraR.png"
   },
   {
     "name": "자크",
     "ultimateLevel1": 130,
     "ultimateLevel2": 115,
-    "ultimateLevel3": 100
+    "ultimateLevel3": 100,
+    "ultimateThumb" : "img/ultimate/ZacR.png"
   },
   {
     "name": "잔나",
     "ultimateLevel1": 150,
     "ultimateLevel2": 135,
-    "ultimateLevel3": 120
+    "ultimateLevel3": 120,
+    "ultimateThumb" : "img/ultimate/JannaR.png"
   },
   {
     "name": "잭스",
     "ultimateLevel1": 80,
     "ultimateLevel2": 80,
-    "ultimateLevel3": 80
+    "ultimateLevel3": 80,
+    "ultimateThumb" : "img/ultimate/JaxR.png"
   },
   {
     "name": "제드",
     "ultimateLevel1": 120,
     "ultimateLevel2": 100,
-    "ultimateLevel3": 80
+    "ultimateLevel3": 80,
+    "ultimateThumb" : "img/ultimate/ZedR.png"
   },
   {
     "name": "제라스",
     "ultimateLevel1": 130,
     "ultimateLevel2": 115,
-    "ultimateLevel3": 100
+    "ultimateLevel3": 100,
+    "ultimateThumb" : "img/ultimate/XerathR.png"
   },
   {
     "name": "제리",
     "ultimateLevel1": 100,
     "ultimateLevel2": 85,
-    "ultimateLevel3": 70
+    "ultimateLevel3": 70,
+    "ultimateThumb" : "img/ultimate/ZeriR.png"
   },
   {
     "name": "제이스",
     "ultimateLevel1": 6,
     "ultimateLevel2": 6,
-    "ultimateLevel3": 6
+    "ultimateLevel3": 6,
+    "ultimateThumb" : "img/ultimate/JayceR.png"
   },
   {
     "name": "조이",
     "ultimateLevel1": 11,
     "ultimateLevel2": 8,
-    "ultimateLevel3": 5
+    "ultimateLevel3": 5,
+    "ultimateThumb" : "img/ultimate/ZoeR.png"
   },
   {
     "name": "직스",
     "ultimateLevel1": 120,
     "ultimateLevel2": 95,
-    "ultimateLevel3": 70
+    "ultimateLevel3": 70,
+    "ultimateThumb" : "img/ultimate/ZiggsR.png"
   },
   {
     "name": "진",
     "ultimateLevel1": 120,
     "ultimateLevel2": 105,
-    "ultimateLevel3": 90
+    "ultimateLevel3": 90,
+    "ultimateThumb" : "img/ultimate/JhinR.png"
   },
   {
     "name": "질리언",
     "ultimateLevel1": 120,
     "ultimateLevel2": 90,
-    "ultimateLevel3": 60
+    "ultimateLevel3": 60,
+    "ultimateThumb" : "img/ultimate/ZileanR.png"
   },
   {
     "name": "징크스",
     "ultimateLevel1": 75,
     "ultimateLevel2": 65,
-    "ultimateLevel3": 55
+    "ultimateLevel3": 55,
+    "ultimateThumb" : "img/ultimate/JinxR.png"
   },
   {
     "name": "초가스",
     "ultimateLevel1": 80,
     "ultimateLevel2": 80,
-    "ultimateLevel3": 80
+    "ultimateLevel3": 80,
+    "ultimateThumb" : "img/ultimate/ChogathR.png"
   },
   {
     "name": "카르마",
     "ultimateLevel1": 40,
     "ultimateLevel2": 38,
-    "ultimateLevel3": 36
+    "ultimateLevel3": 36,
+    "ultimateThumb" : "img/ultimate/KarmaR.png"
   },
   {
     "name": "카밀",
     "ultimateLevel1": 140,
     "ultimateLevel2": 115,
-    "ultimateLevel3": 90
+    "ultimateLevel3": 90,
+    "ultimateThumb" : "img/ultimate/CamilleR.png"
   },
   {
     "name": "카사딘",
     "ultimateLevel1": 5,
     "ultimateLevel2": 3.5,
-    "ultimateLevel3": 2
+    "ultimateLevel3": 2,
+    "ultimateThumb" : "img/ultimate/KassadinR.png"
   },
   {
     "name": "카서스",
     "ultimateLevel1": 200,
     "ultimateLevel2": 180,
-    "ultimateLevel3": 160
+    "ultimateLevel3": 160,
+    "ultimateThumb" : "img/ultimate/KarthusR.png"
   },
   {
     "name": "카시오페아",
     "ultimateLevel1": 120,
     "ultimateLevel2": 110,
-    "ultimateLevel3": 100
+    "ultimateLevel3": 100,
+    "ultimateThumb" : "img/ultimate/CassiopeiaR.png"
   },
   {
     "name": "카이사",
     "ultimateLevel1": 130,
     "ultimateLevel2": 100,
-    "ultimateLevel3": 70
+    "ultimateLevel3": 70,
+    "ultimateThumb" : "img/ultimate/KaisaR.png"
   },
   {
     "name": "카직스",
     "ultimateLevel1": 100,
     "ultimateLevel2": 85,
-    "ultimateLevel3": 70
+    "ultimateLevel3": 70,
+    "ultimateThumb" : "img/ultimate/KhazixR.png"
   },
   {
     "name": "카타리나",
     "ultimateLevel1": 90,
     "ultimateLevel2": 60,
-    "ultimateLevel3": 45
+    "ultimateLevel3": 45,
+    "ultimateThumb" : "img/ultimate/KatarinaR.png"
   },
   {
     "name": "칼리스타",
     "ultimateLevel1": 150,
     "ultimateLevel2": 120,
-    "ultimateLevel3": 90
+    "ultimateLevel3": 90,
+    "ultimateThumb" : "img/ultimate/KalistaR.png"
   },
   {
     "name": "케넨",
     "ultimateLevel1": 120,
     "ultimateLevel2": 120,
-    "ultimateLevel3": 120
+    "ultimateLevel3": 120,
+    "ultimateThumb" : "img/ultimate/KennenR.png"
   },
   {
     "name": "케이틀린",
     "ultimateLevel1": 90,
     "ultimateLevel2": 75,
-    "ultimateLevel3": 60
+    "ultimateLevel3": 60,
+    "ultimateThumb" : "img/ultimate/CaitlynR.png"
   },
   {
     "name": "케인",
     "ultimateLevel1": 120,
     "ultimateLevel2": 100,
-    "ultimateLevel3": 80
+    "ultimateLevel3": 80,
+    "ultimateThumb" : "img/ultimate/KaynR.png"
   },
   {
     "name": "케일",
     "ultimateLevel1": 160,
     "ultimateLevel2": 120,
-    "ultimateLevel3": 80
+    "ultimateLevel3": 80,
+    "ultimateThumb" : "img/ultimate/KayleR.png"
   },
   {
     "name": "코그모",
     "ultimateLevel1": 2,
     "ultimateLevel2": 1.5,
-    "ultimateLevel3": 1
+    "ultimateLevel3": 1,
+    "ultimateThumb" : "img/ultimate/KogMawR.png"
   },
   {
     "name": "코르키",
     "ultimateLevel1": 2,
     "ultimateLevel2": 2,
-    "ultimateLevel3": 2
+    "ultimateLevel3": 2,
+    "ultimateThumb" : "img/ultimate/CorkiR.png"
   },
   {
     "name": "퀸",
     "ultimateLevel1": 3,
     "ultimateLevel2": 3,
-    "ultimateLevel3": 3
+    "ultimateLevel3": 3,
+    "ultimateThumb" : "img/ultimate/QuinnR.png"
   },
   {
     "name": "클레드",
     "ultimateLevel1": 140,
     "ultimateLevel2": 125,
-    "ultimateLevel3": 110
+    "ultimateLevel3": 110,
+    "ultimateThumb" : "img/ultimate/KledR.png"
   },
   {
     "name": "키아나",
     "ultimateLevel1": 120,
     "ultimateLevel2": 120,
-    "ultimateLevel3": 120
+    "ultimateLevel3": 120,
+    "ultimateThumb" : "img/ultimate/QiyanaR.png"
   },
   {
     "name": "킨드레드",
     "ultimateLevel1": 180,
     "ultimateLevel2": 150,
-    "ultimateLevel3": 120
+    "ultimateLevel3": 120,
+    "ultimateThumb" : "img/ultimate/KindredR.png"
   },
   {
     "name": "타릭",
     "ultimateLevel1": 180,
     "ultimateLevel2": 150,
-    "ultimateLevel3": 120
+    "ultimateLevel3": 120,
+    "ultimateThumb" : "img/ultimate/TaricR.png"
   },
   {
     "name": "탈론",
     "ultimateLevel1": 100,
     "ultimateLevel2": 80,
-    "ultimateLevel3": 60
+    "ultimateLevel3": 60,
+    "ultimateThumb" : "img/ultimate/TalonR.png"
   },
   {
     "name": "탈리야",
     "ultimateLevel1": 180,
     "ultimateLevel2": 150,
-    "ultimateLevel3": 120
+    "ultimateLevel3": 120,
+    "ultimateThumb" : "img/ultimate/TaliyahR.png"
   },
   {
     "name": "탐켄치",
     "ultimateLevel1": 120,
     "ultimateLevel2": 100,
-    "ultimateLevel3": 80
+    "ultimateLevel3": 80,
+    "ultimateThumb" : "img/ultimate/TahmKenchR.png"
   },
   {
     "name": "트런들",
     "ultimateLevel1": 120,
     "ultimateLevel2": 100,
-    "ultimateLevel3": 80
+    "ultimateLevel3": 80,
+    "ultimateThumb" : "img/ultimate/TrundleR.png"
   },
   {
     "name": "트리스타나",
     "ultimateLevel1": 120,
     "ultimateLevel2": 110,
-    "ultimateLevel3": 100
+    "ultimateLevel3": 100,
+    "ultimateThumb" : "img/ultimate/TristanaR.png"
   },
   {
     "name": "트린다미어",
     "ultimateLevel1": 120,
     "ultimateLevel2": 100,
-    "ultimateLevel3": 80
+    "ultimateLevel3": 80,
+    "ultimateThumb" : "img/ultimate/TryndamereR.png"
   },
   {
     "name": "트위스티드 페이트",
     "ultimateLevel1": 180,
     "ultimateLevel2": 150,
-    "ultimateLevel3": 120
+    "ultimateLevel3": 120,
+    "ultimateThumb" : "img/ultimate/TwistedFateR.png"
   },
   {
     "name": "트위치",
     "ultimateLevel1": 90,
     "ultimateLevel2": 90,
-    "ultimateLevel3": 90
+    "ultimateLevel3": 90,
+    "ultimateThumb" : "img/ultimate/TwitchR.png"
   },
   {
     "name": "티모",
     "ultimateLevel1": 0.25,
     "ultimateLevel2": 0.25,
-    "ultimateLevel3": 0.25
+    "ultimateLevel3": 0.25,
+    "ultimateThumb" : "img/ultimate/TeemoR.png"
   },
   {
     "name": "파이크",
     "ultimateLevel1": 120,
     "ultimateLevel2": 100,
-    "ultimateLevel3": 80
+    "ultimateLevel3": 80,
+    "ultimateThumb" : "img/ultimate/PykeR.png"
   },
   {
     "name": "판테온",
     "ultimateLevel1": 150,
     "ultimateLevel2": 135,
-    "ultimateLevel3": 120
+    "ultimateLevel3": 120,
+    "ultimateThumb" : "img/ultimate/PantheonR.png"
   },
   {
     "name": "피들스틱",
     "ultimateLevel1": 140,
     "ultimateLevel2": 110,
-    "ultimateLevel3": 80
+    "ultimateLevel3": 80,
+    "ultimateThumb" : "img/ultimate/FiddlesticksR.png"
   },
   {
     "name": "피오라",
     "ultimateLevel1": 110,
     "ultimateLevel2": 90,
-    "ultimateLevel3": 70
+    "ultimateLevel3": 70,
+    "ultimateThumb" : "img/ultimate/FioraR.png"
   },
   {
     "name": "피즈",
     "ultimateLevel1": 100,
     "ultimateLevel2": 85,
-    "ultimateLevel3": 70
+    "ultimateLevel3": 70,
+    "ultimateThumb" : "img/ultimate/FizzR.png"
   },
   {
     "name": "하이머딩거",
     "ultimateLevel1": 100,
     "ultimateLevel2": 85,
-    "ultimateLevel3": 70
+    "ultimateLevel3": 70,
+    "ultimateThumb" : "img/ultimate/HeimerdingerR.png"
   },
   {
     "name": "헤카림",
     "ultimateLevel1": 140,
     "ultimateLevel2": 120,
-    "ultimateLevel3": 100
+    "ultimateLevel3": 100,
+    "ultimateThumb" : "img/ultimate/HecarimR.png"
   }
 ]
