@@ -1,0 +1,57 @@
+[
+  {
+    "id": "cleanse",
+    "image": "img/summonerSpell/cleanse.png",
+    "cooldown": 210
+  },
+  {
+    "id": "exhaust",
+    "image": "img/summonerSpell/exhaust.png",
+    "cooldown": 210
+  },
+  {
+    "id": "flash",
+    "image": "img/summonerSpell/flash.png",
+    "cooldown": 300
+  },
+  {
+    "id": "ghost",
+    "image": "img/summonerSpell/ghost.png",
+    "cooldown": 210
+  },
+  {
+    "id": "heal",
+    "image": "img/summonerSpell/heal.png",
+    "cooldown": 240
+  },
+  {
+    "id": "smite",
+    "image": "img/summonerSpell/smite.png",
+    "cooldown": 15
+  },
+  {
+    "id": "teleport",
+    "image": "img/summonerSpell/teleport.png",
+    "cooldown": 360
+  },
+  {
+    "id": "clarity",
+    "image": "img/summonerSpell/clarity.png",
+    "cooldown": 240
+  },
+  {
+    "id": "ignite",
+    "image": "img/summonerSpell/ignite.png",
+    "cooldown": 180
+  },
+  {
+    "id": "barrier",
+    "image": "img/summonerSpell/barrier.png",
+    "cooldown": 180
+  },
+  {
+    "id": "mark",
+    "image": "img/summonerSpell/mark.png",
+    "cooldown": 48
+  }
+]
