@@ -1,13 +1,18 @@
 <template>
   <div class="spell-item-container">
 <!--    <div class="spell-img"></div>-->
+    <div class="btn-subtract-container">
+      <button class="btn-subtract">-5s</button>
+      <button class="btn-subtract">-15s</button>
+    </div>
     <CooldownImageContainer :cooldown-data="cooldownData"/>
+    {{ summonerSpellCooldown}}
     <button @click="isOpen = !isOpen" :class="{open: isOpen}" class="btn-spell-list">
       <span class="btn-spell-icon"></span>
     </button>
     <ul :class="{open: isOpen}" class="select-spell-list">
       <li v-for="item in SummonerSpells" :key="item.id" class="select-spell-item">
-        <div class="spell-img" :style="{ backgroundImage: 'url(/' + item.image + ')'}"></div>
+        <div class="spell-img" @click="this.onSelectSummonerSpell(item.id)" :style="{ backgroundImage: 'url(/' + item.image + ')'}"></div>
       </li>
     </ul>
   </div>
@@ -19,14 +24,35 @@ import SummonerSpells from "../data/summonerSpells.json";
 export default {
   name: "SummonerSpellItem",
   components: {CooldownImageContainer},
+  props: {
+    itemData: Object
+  },
+  computed: {
+    summonerSpellCooldown() {
+      let result = this.cooldownData.cooldown * 100 / (100 + Number(this.itemData.isAram) + Number(this.itemData.isIonian) + Number(this.itemData.isCosmicInsight))
+      return result.toFixed(0)
+    }
+  },
   data() {
     return {
       SummonerSpells,
       isOpen: false,
+      currentSummonerSpell:"",
       cooldownData: {
         thumb: "img/summonerSpell/mark.png",
-        cooldown: 48
+        cooldown: 80
       }
+    }
+  },
+  methods: {
+    onSelectSummonerSpell(id) {
+      console.log(id)
+      this.currentSummonerSpell = id
+      let found = SummonerSpells.find((item) => (
+          item.id === id
+      ))
+      this.cooldownData.thumb = found.image
+      this.cooldownData.cooldown = found.cooldown
     }
   }
 
@@ -36,8 +62,18 @@ export default {
 <style scoped lang="scss">
 .spell-item-container{
   width: 60px;
-  height: 90px;
+  height: 110px;
   position: relative;
+
+  .btn-subtract-container{
+    font-size: 10px;
+    display: flex;
+    margin-bottom: 10px;
+    .btn-subtract{
+      width: 30px;
+      height: 20px;
+    }
+  }
 
   .btn-spell-list{
     width: 30px;
@@ -49,6 +85,8 @@ export default {
     border: 2px solid #BAA371;
     background-color: #196564;
     cursor: pointer;
+    position: relative;
+    z-index: 13;
     .btn-spell-icon{
       display: inline-block;
       width: 16px;
@@ -71,8 +109,9 @@ export default {
     box-sizing: border-box;
     background-color: #031115;
     position: absolute;
-    top: 90px;
+    top: 105px;
     left: 50%;
+    z-index: 3;
     transform: translateX(-50%);
     .select-spell-item{
       width: 60px;
