@@ -52,6 +52,6 @@
   {
     "id": "mark",
     "image": "img/summonerSpell/mark.png",
-    "cooldown": 48
+    "cooldown": 80
   }
 ]
