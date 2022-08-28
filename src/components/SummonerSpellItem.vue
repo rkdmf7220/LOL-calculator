@@ -5,7 +5,7 @@
       <button class="btn-subtract">-5s</button>
       <button class="btn-subtract">-15s</button>
     </div>
-    <CooldownImageContainer :cooldown-data="cooldownData"/>
+    <CooldownImageContainer :cooldown-data="cooldownData" :spell-cooldown="summonerSpellCooldown"/>
     {{ summonerSpellCooldown}}
     <button @click="isOpen = !isOpen" :class="{open: isOpen}" class="btn-spell-list">
       <span class="btn-spell-icon"></span>
@@ -53,6 +53,11 @@ export default {
       ))
       this.cooldownData.thumb = found.image
       this.cooldownData.cooldown = found.cooldown
+      // this.cooldownData.cooldown = this.computeSpellCooldown(found.cooldown)
+    },
+    computeSpellCooldown(item) {
+      let result = item.cooldown * 100 / (100 + Number(this.itemData.isAram) + Number(this.itemData.isIonian) + Number(this.itemData.isCosmicInsight))
+      return result.toFixed(0)
     }
   }
 

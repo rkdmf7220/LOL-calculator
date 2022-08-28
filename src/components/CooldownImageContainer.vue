@@ -13,23 +13,24 @@
 export default {
   name: "CooldownImageContainer",
   props: {
-    cooldownData: Object
+    cooldownData: Object,
+    spellCooldown: String
   },
   computed: {
     cooldownNavyHeight() {
-      return 100 * this.remainingCooldown / this.cooldownData.cooldown
+      return 100 * this.remainingCooldown / this.spellCooldown
     }
   },
   data() {
     return {
       isCooldown: false,
-      remainingCooldown: 30
+      remainingCooldown: null
     }
   },
   methods: {
     onClickThumbImage() {
       this.isCooldown = true
-      this.remainingCooldown = this.cooldownData.cooldown
+      this.remainingCooldown = this.spellCooldown
       setInterval(this.decreaseCooldown, 1000)
     },
     decreaseCooldown() {
@@ -37,9 +38,13 @@ export default {
         this.remainingCooldown --
       } else {
         this.remainingCooldown = 0
+        clearInterval(this.decreaseCooldown)
         this.isCooldown = false
       }
-    }
+    },
+/*    resetCooldown() {
+      this.$emit('change', this.remainingCooldown = 0)
+    }*/
   }
 }
 </script>
