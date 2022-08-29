@@ -10,15 +10,15 @@
 </template>
 
 <script>
+let test
 export default {
   name: "CooldownImageContainer",
   props: {
     cooldownData: Object,
-    spellCooldown: String
   },
   computed: {
     cooldownNavyHeight() {
-      return 100 * this.remainingCooldown / this.spellCooldown
+      return 100 * this.remainingCooldown / this.cooldownData.cooldown
     }
   },
   data() {
@@ -30,21 +30,31 @@ export default {
   methods: {
     onClickThumbImage() {
       this.isCooldown = true
-      this.remainingCooldown = this.spellCooldown
-      setInterval(this.decreaseCooldown, 1000)
+      this.remainingCooldown = this.cooldownData.cooldown
+      test = setInterval(this.decreaseCooldown, 1000)
     },
     decreaseCooldown() {
       if(this.remainingCooldown > 0) {
         this.remainingCooldown --
       } else {
         this.remainingCooldown = 0
-        clearInterval(this.decreaseCooldown)
+        clearInterval(test)
         this.isCooldown = false
       }
     },
-/*    resetCooldown() {
-      this.$emit('change', this.remainingCooldown = 0)
-    }*/
+    resetCooldown() {
+      this.remainingCooldown = 0
+      clearInterval(test)
+      this.isCooldown = false
+    },
+    reduceCooldown(seconds) {
+      if(this.remainingCooldown >= seconds) {
+        this.remainingCooldown = this.remainingCooldown - seconds
+      } else {
+        this.resetCooldown()
+      }
+
+    }
   }
 }
 </script>
@@ -54,7 +64,6 @@ export default {
   width: 60px;
   height: 60px;
   position: relative;
-  //background-color: #0cf;
 
   .cooldown-container{
     width: 100%;
@@ -83,7 +92,6 @@ export default {
     }
     .dim-box{
       width: 100%;
-
       height: 100%;
       position: absolute;
       top: 0;
