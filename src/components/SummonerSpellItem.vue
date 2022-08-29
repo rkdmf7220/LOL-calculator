@@ -73,12 +73,15 @@ export default {
   position: relative;
 
   .btn-subtract-container{
-    font-size: 10px;
     display: flex;
     margin-bottom: 10px;
     .btn-subtract{
       width: 30px;
       height: 20px;
+      font-size: 12px;
+      background-color: #fff;
+      border: 1px solid #CED3D6;
+      border-radius: 2px;
     }
   }
 
