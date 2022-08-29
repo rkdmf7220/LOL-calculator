@@ -1,5 +1,11 @@
 [
   {
+    "name": "TBD",
+    "ultimateLevel1": 0,
+    "ultimateLevel2": 0,
+    "ultimateLevel3": 0,
+    "ultimateThumb" : "img/ultimate/TBD.png"
+  },{
     "name": "가렌",
     "ultimateLevel1": 120,
     "ultimateLevel2": 100,
