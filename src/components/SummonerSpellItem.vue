@@ -1,12 +1,10 @@
 <template>
   <div class="spell-item-container">
-<!--    <div class="spell-img"></div>-->
     <div class="btn-subtract-container">
-      <button class="btn-subtract">-5s</button>
-      <button class="btn-subtract">-15s</button>
+      <button @click="() => reduceRemainCooldown(5)" class="btn-subtract">-5s</button>
+      <button @click="() => reduceRemainCooldown(15)" class="btn-subtract">-15s</button>
     </div>
-    <CooldownImageContainer :cooldown-data="cooldownData" :spell-cooldown="summonerSpellCooldown"/>
-    {{ summonerSpellCooldown}}
+    <CooldownImageContainer :cooldown-data="summonerSpellCooldown" ref="cooldownContainer"/>
     <button @click="isOpen = !isOpen" :class="{open: isOpen}" class="btn-spell-list">
       <span class="btn-spell-icon"></span>
     </button>
@@ -29,8 +27,11 @@ export default {
   },
   computed: {
     summonerSpellCooldown() {
-      let result = this.cooldownData.cooldown * 100 / (100 + Number(this.itemData.isAram) + Number(this.itemData.isIonian) + Number(this.itemData.isCosmicInsight))
-      return result.toFixed(0)
+      let cooldownResult = this.cooldownData.cooldown * 100 / (100 + Number(this.itemData.isAram) + Number(this.itemData.isIonian) + Number(this.itemData.isCosmicInsight))
+      return {
+        cooldown: cooldownResult.toFixed(0),
+        thumb: this.cooldownData.thumb
+      }
     }
   },
   data() {
@@ -46,18 +47,19 @@ export default {
   },
   methods: {
     onSelectSummonerSpell(id) {
-      console.log(id)
+      this.resetSummonerSpellCooldown()
       this.currentSummonerSpell = id
       let found = SummonerSpells.find((item) => (
           item.id === id
       ))
       this.cooldownData.thumb = found.image
       this.cooldownData.cooldown = found.cooldown
-      // this.cooldownData.cooldown = this.computeSpellCooldown(found.cooldown)
     },
-    computeSpellCooldown(item) {
-      let result = item.cooldown * 100 / (100 + Number(this.itemData.isAram) + Number(this.itemData.isIonian) + Number(this.itemData.isCosmicInsight))
-      return result.toFixed(0)
+    resetSummonerSpellCooldown() {
+      this.$refs.cooldownContainer.resetCooldown()
+    },
+    reduceRemainCooldown(seconds) {
+      this.$refs.cooldownContainer.reduceCooldown(seconds)
     }
   }
 
