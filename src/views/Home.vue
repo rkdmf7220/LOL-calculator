@@ -4,6 +4,13 @@
       <input v-model="inputSummonerName" type="text" class="search-summoner" placeholder="소환사 명">
       <button @click="this.dispatchInfo" class="submit"></button>
     </div>
+    <div>
+      <p>{{ foundSummonerId }}</p>
+    </div>
+    <div class="search-bar">
+      <input v-model="inputSummonerId" type="text" class="search-summoner" placeholder="소환사 id">
+      <button @click="this.dispatchId" class="submit"></button>
+    </div>
   </div>
 </template>
 
@@ -11,14 +18,24 @@
 
 export default {
   name: 'Home',
+  computed: {
+    foundSummonerId() {
+      return this.$store.state.summonerInfo
+    }
+  },
   data() {
     return {
-      inputSummonerName: null
+      inputSummonerName: null,
+      inputSummonerId: null
     }
   },
   methods: {
     dispatchInfo() {
       this.$store.dispatch('getSummonerInfo', {summonerName: this.inputSummonerName})
+      // this.$store.dispatch('getSummonerInfo', (this.inputSummonerName))
+    },
+    dispatchId() {
+      this.$store.dispatch('getActiveGameInfo', {summonerId: this.inputSummonerId})
       // this.$store.dispatch('getSummonerInfo', (this.inputSummonerName))
     }
   }

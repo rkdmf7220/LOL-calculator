@@ -1,9 +1,9 @@
 import { createStore } from 'vuex'
 import axios from "axios";
-const API_KEY = 'RGAPI-dced7af2-3b51-4bed-8c47-b10d2b3aecec'
+const API_KEY = 'RGAPI-7ac7029e-89ad-4907-81f2-df86c8514fea'
 const URL = {
-  summonerInfo : 'https://kr.api.riotgames.com/lol/summoner/v4/summoners/by-name/',
-  activeGameInfo: 'https://kr.api.riotgames.com/lol/spectator/v4/active-games/by-summoner/}'
+  summonerInfo : 'https://my-weather-server.herokuapp.com/https://kr.api.riotgames.com/lol/summoner/v4/summoners/by-name/',
+  activeGameInfo: 'https://my-weather-server.herokuapp.com/https://kr.api.riotgames.com/lol/spectator/v4/active-games/by-summoner/'
 }
 
 export default createStore({
@@ -28,9 +28,8 @@ export default createStore({
               console.log('if로 작동')
               console.log(result)
               let item = result.data
-              let summonerId = item.accoundId
+              // let summonerId = item.accoundId
               commit('summonerInfo', item)
-              this.$store.dispatch('getActiveGameInfo', {summonerId})
             } else {
               // console.log('else로 작동')
               // TODO: error 처리
