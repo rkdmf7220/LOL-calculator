@@ -10,7 +10,7 @@
     </button>
     <ul :class="{open: isOpen}" class="select-spell-list">
       <li v-for="item in SummonerSpells" :key="item.id" class="select-spell-item">
-        <div class="spell-img" @click="this.onSelectSummonerSpell(item.id)" :style="{ backgroundImage: 'url(/' + item.image + ')'}"></div>
+        <div class="spell-img" @click="this.onSelectSummonerSpell(item.spellName)" :style="{ backgroundImage: 'url(/' + item.image + ')'}"></div>
       </li>
     </ul>
   </div>
@@ -46,11 +46,11 @@ export default {
     }
   },
   methods: {
-    onSelectSummonerSpell(id) {
+    onSelectSummonerSpell(spellName) {
       this.resetSummonerSpellCooldown()
-      this.currentSummonerSpell = id
+      this.currentSummonerSpell = spellName
       let found = SummonerSpells.find((item) => (
-          item.id === id
+          item.spellName === spellName
       ))
       this.cooldownData.thumb = found.image
       this.cooldownData.cooldown = found.cooldown

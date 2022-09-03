@@ -1,56 +1,67 @@
 [
   {
-    "id": "cleanse",
+    "id": 1,
+    "spellName": "cleanse",
     "image": "img/summonerSpell/cleanse.png",
     "cooldown": 210
   },
   {
-    "id": "exhaust",
+    "id": 3,
+    "spellName": "exhaust",
     "image": "img/summonerSpell/exhaust.png",
     "cooldown": 210
   },
   {
-    "id": "flash",
+    "id": 4,
+    "spellName": "flash",
     "image": "img/summonerSpell/flash.png",
     "cooldown": 300
   },
   {
-    "id": "ghost",
+    "id": 6,
+    "spellName": "ghost",
     "image": "img/summonerSpell/ghost.png",
     "cooldown": 210
   },
   {
-    "id": "heal",
+    "id": 7,
+    "spellName": "heal",
     "image": "img/summonerSpell/heal.png",
     "cooldown": 240
   },
   {
-    "id": "smite",
+    "id": 11,
+    "spellName": "smite",
     "image": "img/summonerSpell/smite.png",
     "cooldown": 15
   },
   {
-    "id": "teleport",
+    "id": 12,
+    "spellName": "teleport",
     "image": "img/summonerSpell/teleport.png",
     "cooldown": 360
   },
   {
-    "id": "clarity",
+    "id": 13,
+    "spellName": "clarity",
     "image": "img/summonerSpell/clarity.png",
     "cooldown": 240
   },
   {
-    "id": "ignite",
+    "id": 14,
+    "spellName": "ignite",
     "image": "img/summonerSpell/ignite.png",
     "cooldown": 180
   },
   {
-    "id": "barrier",
+    "id": 21,
+    "spellName": "barrier",
     "image": "img/summonerSpell/barrier.png",
     "cooldown": 180
   },
   {
-    "id": "mark",
+    "id": 39,
+    "spellName": "mark",
     "image": "img/summonerSpell/mark.png",
     "cooldown": 80
   }
