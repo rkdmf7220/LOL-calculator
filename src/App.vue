@@ -8,6 +8,11 @@
 </template>
 
 <style lang="scss">
+ul, ol{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
 html{
   background: linear-gradient(135deg, #d3e4ff, #8fb1ff) no-repeat;
   min-height: 100vh;

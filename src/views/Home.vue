@@ -1,4 +1,5 @@
 <template>
+  <LiveGameInfo/>
   <div>
     <div class="search-bar">
       <input v-model="inputSummonerName" type="text" class="search-summoner" placeholder="소환사 명">
@@ -16,11 +17,14 @@
 
 <script>
 
+import LiveGameInfo from "@/components/LiveGameInfo";
 export default {
   name: 'Home',
+  components: {LiveGameInfo},
+
   computed: {
     foundSummonerId() {
-      return this.$store.state.summonerInfo
+      return this.$store.state.summonerInfo.accountId
     }
   },
   data() {
